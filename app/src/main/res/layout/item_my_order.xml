@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp"
+        android:background="@drawable/btn_bg_detailed">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Product name: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"/>
+            <TextView
+                android:id="@+id/order_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textSize="16sp"
+                android:fontFamily="@font/alice"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Product price: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"/>
+            <TextView
+                android:id="@+id/order_product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="13"
+                android:textSize="16sp"
+                android:fontFamily="@font/alice"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"/>
+            <TextView
+                android:id="@+id/order_current_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="13/07/2001"
+                android:textSize="16sp"
+                android:fontFamily="@font/alice"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Time: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"/>
+            <TextView
+                android:id="@+id/order_current_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="13:07:23"
+                android:textSize="16sp"
+                android:fontFamily="@font/alice"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total quantity: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"/>
+            <TextView
+                android:id="@+id/order_total_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"
+                android:textSize="16sp"
+                android:fontFamily="@font/alice"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total price: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"/>
+            <TextView
+                android:id="@+id/order_total_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="350"
+                android:textSize="16sp"
+                android:fontFamily="@font/alice"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
